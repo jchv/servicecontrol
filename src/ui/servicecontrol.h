@@ -16,6 +16,9 @@ public:
     explicit ServiceControl(QWidget *parent = nullptr);
     ~ServiceControl() override;
 
+public slots:
+    void showAddDomainPrompt();
+
 private:
     QScopedPointer<Ui::ServiceControl> m_ui;
 };

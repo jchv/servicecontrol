@@ -1,0 +1,12 @@
+diff --git a/src/worker/dbus.orig/org.freedesktop.import1.ImportManager.xml b/src/worker/dbus/org.freedesktop.import1.ImportManager.xml
+index a535126..afe235b 100644
+--- a/src/worker/dbus.orig/org.freedesktop.import1.ImportManager.xml
++++ b/src/worker/dbus/org.freedesktop.import1.ImportManager.xml
+@@ -58,6 +58,7 @@
+   </method>
+   <method name="ListTransfers">
+    <arg type="a(usssdo)" name="transfers" direction="out"/>
++   <annotation name="org.qtproject.QtDBus.QtTypeName.Out0" value="ImportTransferList"/>
+   </method>
+   <method name="CancelTransfer">
+    <arg type="u" name="transfer_id" direction="in"/>

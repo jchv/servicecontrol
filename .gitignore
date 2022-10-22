@@ -1,1 +1,6 @@
 /build/
+*.bak
+*.orig
+.kdev4
+*kdev4
+result
